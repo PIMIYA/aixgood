@@ -18,12 +18,16 @@ features:
       height: 48
     title: ArchiLAW
     details: A Taiwan building-law knowledge base covering national statutes, municipal codes, administrative rulings and government web sources. Connect through MCP to Claude or ChatGPT, or use the built-in Web App. The knowledge base updates daily.
+    link: /en/archilaw/
+    linkText: Learn more
   - icon:
       src: /archigent-icon.png
       width: 48
       height: 48
     title: Archigent
     details: "Agentic architecture design -- an AI Agent that participates directly in the architectural workflow: operating Revit and SketchUp models, generating renders, simulating lighting, checking sheets and studying facade options. Every step requires the architect's approval."
+    link: /en/archigent/
+    linkText: Learn more
   - title: Beta
     details: This is an invitation-only beta. Features and content are under active development. AI answers are for reference only -- consult official gazettes and competent authorities for practice. Feedback is welcome.
 ---

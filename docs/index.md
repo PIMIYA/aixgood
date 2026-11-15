@@ -18,12 +18,16 @@ features:
       height: 48
     title: ArchiLAW
     details: 台灣建築法規知識庫，涵蓋中央法規、地方自治條例、函釋及官方網頁資料。透過 MCP 協定連接 Claude 或 ChatGPT，或使用內建 Web App 對話查詢。知識庫每日自動更新。
+    link: /archilaw/
+    linkText: 了解更多
   - icon:
       src: /archigent-icon.png
       width: 48
       height: 48
     title: Archigent
     details: Agentic architecture design -- AI Agent 直接參與建築設計流程，操作 Revit 與 SketchUp 模型、產生渲染圖、模擬燈光、檢查圖紙、研究立面方案。每一步都經過建築師核准。
+    link: /archigent/
+    linkText: 了解更多
   - title: 測試版說明
     details: 目前為受邀測試版本（Beta），功能與內容持續更新中。AI 回答僅供參考，實務應用請以政府公報及主管機關公告為準。使用上若遇到問題或有建議，歡迎回饋。
 ---
