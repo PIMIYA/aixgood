@@ -45,6 +45,7 @@ export default defineConfig({
             { text: '介紹', link: '/archigent/' },
             { text: '安裝與設定', link: '/archigent/setup' },
             { text: '使用說明', link: '/archigent/usage' },
+            { text: '圖文使用手冊', link: '/archigent/guide' },
             { text: '常見問題', link: '/archigent/faq' },
           ],
         },
