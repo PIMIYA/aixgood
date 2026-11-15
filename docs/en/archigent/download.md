@@ -14,6 +14,8 @@
 
 0.3.19 Mac: Install plug-ins now also finds SketchUp in your own Applications folder (~/Applications).
 
+To report a problem, use Report a problem at the top of Settings > Integrations & security; please do not write names.
+
 All versions: [GitHub Releases](https://github.com/PIMIYA/aixgood/releases/latest)
 
 ## Installation Notes

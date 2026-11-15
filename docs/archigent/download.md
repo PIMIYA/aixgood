@@ -14,6 +14,8 @@
 
 0.3.19 Mac：SketchUp 裝在個人的「應用程式」資料夾（~/Applications）時，「安裝外掛」也能找到並安裝。
 
+遇到問題可在「設定 > 整合與安全」最上方的「回報問題」回報給開發團隊；請不要寫姓名。
+
 所有版本：[GitHub Releases](https://github.com/PIMIYA/aixgood/releases/latest)
 
 ## 安裝注意事項
