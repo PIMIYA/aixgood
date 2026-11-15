@@ -449,6 +449,19 @@ body {
   border: 1px solid var(--vp-c-gutter);
   margin-bottom: 24px;
   max-width: 1152px;
+  width: calc(100% - 48px);
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .VPHome .vp-doc {
+    width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHome .vp-doc {
+    width: calc(100% - 128px);
+  }
 }
