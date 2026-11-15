@@ -1,14 +1,14 @@
-# Archigent 介紹
+# Archigent
 
 ::: info 測試版 (Beta)
 Archigent 目前為測試版本，功能持續開發中。
 :::
 
-## 什麼是 Archigent
+## Agentic Architecture Design
 
-Archigent 是一款本機建築專案工作台。它以七個專案階段組織建築工作流程，內建 AI Agent 可協助從設計草稿到出圖的各項工作，並整合渲染、燈光模擬、立面研究與圖紙檢查等視覺化工具。
+Archigent 是一款 agentic 架構設計工作台：AI Agent 直接參與建築設計工作流程，從草圖到出圖的每個階段都可以請 Agent 操作、檢查、產出，而不只是問答。Agent 讀取你的 Revit 或 SketchUp 模型、產生渲染圖、檢查圖紙、查詢法規，每一步都經過你的核准。
 
-Archigent 在你的電腦上運行（Electron 桌面應用程式或本機網頁應用程式），專案資料保存在本地端。
+Archigent 在你的電腦上運行，專案資料保存在本機。
 
 ## 七個專案階段
 
