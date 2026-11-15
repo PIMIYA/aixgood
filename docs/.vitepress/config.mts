@@ -6,7 +6,9 @@ export default defineConfig({
   lang: 'zh-TW',
   base: '/aixgood/',
   head: [
-    ['meta', { name: 'theme-color', content: '#1a1a2e' }],
+    ['meta', { name: 'theme-color', content: '#FBFAF7' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
   ],
   themeConfig: {
     nav: [

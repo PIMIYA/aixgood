@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand: Archigent blue */
+  --vp-c-brand-1: #1F3FD6;
+  --vp-c-brand-2: #1933B0;
+  --vp-c-brand-3: #1F3FD6;
+  --vp-c-brand-soft: #EDF0FF;
+
+  /* Warm ground palette */
+  --vp-c-bg: #FBFAF7;
+  --vp-c-bg-alt: #F5F3EF;
+  --vp-c-bg-elv: #FFFFFF;
+  --vp-c-bg-soft: #F5F3EF;
+
+  /* Text */
+  --vp-c-text-1: #1A1816;
+  --vp-c-text-2: #6E6A64;
+  --vp-c-text-3: #8C8985;
+
+  /* Borders */
+  --vp-c-border: rgba(26, 24, 22, 0.14);
+  --vp-c-divider: rgba(26, 24, 22, 0.14);
+  --vp-c-gutter: rgba(26, 24, 22, 0.14);
+
+  /* Status colors */
+  --vp-c-tip-1: #2E6B3F;
+  --vp-c-tip-2: #2E6B3F;
+  --vp-c-tip-3: #2E6B3F;
+  --vp-c-tip-soft: #EDF5EF;
+  --vp-c-warning-1: #B2491F;
+  --vp-c-warning-2: #B2491F;
+  --vp-c-warning-3: #B2491F;
+  --vp-c-warning-soft: #FFF8F3;
+  --vp-c-danger-1: #B42318;
+  --vp-c-danger-2: #B42318;
+  --vp-c-danger-3: #B42318;
+
+  /* Buttons */
+  --vp-button-brand-bg: #1A1816;
+  --vp-button-brand-hover-bg: #1F3FD6;
+  --vp-button-brand-text: #FFFFFF;
+  --vp-button-brand-hover-text: #FFFFFF;
+  --vp-button-brand-active-bg: #1933B0;
+  --vp-button-brand-active-text: #FFFFFF;
+
+  --vp-button-alt-bg: #F5F3EF;
+  --vp-button-alt-hover-bg: #EDF0FF;
+  --vp-button-alt-text: #1A1816;
+  --vp-button-alt-hover-text: #1A1816;
+
+  /* Typography */
+  --vp-font-family-base: 'Space Grotesk', 'Noto Sans TC', system-ui, sans-serif;
+  --vp-font-family-mono: 'Space Mono', 'Noto Sans TC', monospace;
+
+  /* Tight radius like Archigent */
+  --vp-border-radius: 2px;
+
+  /* Nav */
+  --vp-c-default-soft: #F5F3EF;
+  --vp-nav-bg-color: #FBFAF7;
+  --vp-sidebar-bg-color: #FBFAF7;
+
+  /* Home hero */
+  --vp-home-hero-name-color: #1A1816;
+  --vp-home-hero-name-background: none;
+  --vp-home-hero-image-background-image: none;
+}
+
+/* Dark mode */
+.dark {
+  --vp-c-brand-1: #8FB3F0;
+  --vp-c-brand-2: #CDC4BA;
+  --vp-c-brand-3: #8FB3F0;
+  --vp-c-brand-soft: rgba(205, 196, 186, 0.10);
+
+  --vp-c-bg: #0A0A0A;
+  --vp-c-bg-alt: #111214;
+  --vp-c-bg-elv: #111214;
+  --vp-c-bg-soft: #191A1C;
+
+  --vp-c-text-1: #CDC4BA;
+  --vp-c-text-2: #8A847C;
+  --vp-c-text-3: #77736E;
+
+  --vp-c-border: rgba(205, 196, 186, 0.14);
+  --vp-c-divider: rgba(205, 196, 186, 0.14);
+  --vp-c-gutter: rgba(205, 196, 186, 0.14);
+
+  --vp-c-tip-1: #7FB38C;
+  --vp-c-tip-soft: #17231B;
+  --vp-c-warning-1: #E07A4F;
+  --vp-c-warning-soft: #1D130E;
+  --vp-c-danger-1: #F08A7E;
+
+  --vp-button-brand-bg: #CDC4BA;
+  --vp-button-brand-hover-bg: #EDE7E0;
+  --vp-button-brand-text: #0A0A0A;
+  --vp-button-brand-hover-text: #0A0A0A;
+  --vp-button-brand-active-bg: #EDE7E0;
+  --vp-button-brand-active-text: #0A0A0A;
+
+  --vp-button-alt-bg: #191A1C;
+  --vp-button-alt-hover-bg: rgba(205, 196, 186, 0.10);
+  --vp-button-alt-text: #CDC4BA;
+  --vp-button-alt-hover-text: #EDE7E0;
+
+  --vp-c-default-soft: #191A1C;
+  --vp-nav-bg-color: #0A0A0A;
+  --vp-sidebar-bg-color: #0A0A0A;
+
+  --vp-home-hero-name-color: #EDE7E0;
+}
+
+/* Archigent-style mono labels for sidebar group headings */
+.VPSidebarItem.level-0 > .item > .text {
+  font-family: 'Space Mono', 'Noto Sans TC', monospace;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+/* Tighter button radius */
+.VPButton {
+  border-radius: 2px !important;
+}
+
+/* Feature cards match studio-panel style */
+.VPFeature {
+  border-radius: 2px !important;
+}
+
+/* Nav bar subtle bottom border */
+.VPNav {
+  border-bottom-color: var(--vp-c-border) !important;
+}
+
+/* Code blocks */
+:root {
+  --vp-code-block-bg: #F5F3EF;
+}
+.dark {
+  --vp-code-block-bg: #111214;
+}
+
+/* Custom container (tip/warning/info) radius */
+.custom-block {
+  border-radius: 2px;
+}
+
+/* Table styling to match Archigent's structured look */
+.vp-doc table {
+  border-radius: 0;
+}
+
+.vp-doc th {
+  font-family: 'Space Mono', 'Noto Sans TC', monospace;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+/* Sidebar active item uses accent color selection background */
+.VPSidebarItem.is-active > .item .link > .text {
+  color: var(--vp-c-brand-1);
+}
+
+/* Hero title styling */
+.VPHero .name {
+  font-weight: 700;
+}
+
+.VPHero .text {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.VPHero .tagline {
+  color: var(--vp-c-text-2);
+}
+
+/* Compact scrollbar like Archigent */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-text-3);
+}

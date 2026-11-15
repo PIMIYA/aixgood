@@ -25,7 +25,7 @@ features:
 AIxGood 是洪建全文教基金會推動的計畫，探索 AI 技術在專業領域中的應用。目前提供兩項服務：
 
 - **ArchiLAW** -- 台灣建築法規知識庫與 AI 檢索服務
-- **Archigent** -- 建築專案 AI 工作台桌面應用程式（原 Archigen Studio）
+- **Archigent** -- 建築專案 AI 工作台桌面應用程式
 
 兩者共享同一套法規知識庫。ArchiLAW 專注於法規檢索與問答；Archigent 則是完整的建築專案工作環境，整合法規查詢、模型操作、渲染、燈光模擬與圖紙檢查等功能。
 

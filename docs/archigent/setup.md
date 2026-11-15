@@ -31,15 +31,6 @@
 3. 從開始選單開啟 **Archigent**
 4. 確認版本
 
-### 從 ArchiGen Studio 升級
-
-軟體已改名為 Archigent。專案、設定與已儲存的金鑰會保留在原處，直接出現在新版本中。
-
-- **macOS**：安裝 Archigent.app 後，結束舊程式並從「應用程式」刪除 ArchiGen Studio.app
-- **Windows**：安裝程式會直接取代舊版
-
-建議從軟體內重新安裝 SketchUp 與 Revit 擴充功能，讓選單顯示新名稱。
-
 ## 初始設定
 
 ### 1. 設定 AI 服務供應商
