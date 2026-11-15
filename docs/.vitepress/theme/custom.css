@@ -458,36 +458,49 @@ body {
   background: var(--vp-c-text-3);
 }
 
-/* ── Home page: screenshot showcase ── */
-.showcase {
-  display: flex;
-  gap: 32px;
-  justify-content: center;
-  align-items: flex-start;
-  max-width: 1152px;
-  margin: 0 auto 48px;
+/* ── Home page: screenshot showcase — overlapping desk ── */
+.showcase-desk {
+  position: relative;
+  max-width: 960px;
+  height: 380px;
+  margin: 0 auto 56px;
   padding: 0 24px;
-  perspective: 1200px;
 }
 
 .showcase-card {
-  flex: 1;
-  max-width: 540px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+  position: absolute;
+  width: 56%;
   text-decoration: none !important;
-  transform-style: preserve-3d;
-  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1),
+              z-index 0s 0.25s;
+}
+
+.showcase-card--left {
+  left: 2%;
+  top: 0;
+  z-index: 1;
+  transform: rotate(-2.5deg);
+}
+
+.showcase-card--right {
+  right: 2%;
+  top: 32px;
+  z-index: 2;
+  transform: rotate(2deg);
 }
 
 .showcase-card:hover {
-  transform: rotateY(-2deg) rotateX(1deg) translateY(-4px);
+  z-index: 10;
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1),
+              z-index 0s 0s;
 }
 
-.showcase-card:last-child:hover {
-  transform: rotateY(2deg) rotateX(1deg) translateY(-4px);
+.showcase-card--left:hover {
+  transform: rotate(0deg) translateY(-8px) scale(1.03);
+}
+
+.showcase-card--right:hover {
+  transform: rotate(0deg) translateY(-8px) scale(1.03);
 }
 
 .showcase-frame {
@@ -495,30 +508,31 @@ body {
   aspect-ratio: 16 / 10;
   overflow: hidden;
   border: 1px solid var(--vp-c-border);
+  border-radius: 4px;
   box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.06),
-    0 1px 4px rgba(0, 0, 0, 0.04);
-  transition: box-shadow 0.4s ease, border-color 0.4s ease;
+    0 6px 32px rgba(0, 0, 0, 0.10),
+    0 2px 6px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.5s ease, border-color 0.4s ease;
 }
 
 .showcase-card:hover .showcase-frame {
   border-color: var(--vp-c-text-3);
   box-shadow:
-    0 8px 40px rgba(0, 0, 0, 0.10),
-    0 2px 8px rgba(0, 0, 0, 0.06);
+    0 16px 48px rgba(0, 0, 0, 0.14),
+    0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .dark .showcase-frame {
   box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.30),
+    0 6px 32px rgba(0, 0, 0, 0.40),
     0 0 1px rgba(255, 255, 255, 0.08);
 }
 
 .dark .showcase-card:hover .showcase-frame {
-  border-color: rgba(255, 255, 255, 0.30);
+  border-color: rgba(160, 200, 230, 0.30);
   box-shadow:
-    0 8px 40px rgba(0, 0, 0, 0.40),
-    0 0 20px rgba(160, 184, 208, 0.10);
+    0 16px 48px rgba(0, 0, 0, 0.50),
+    0 0 24px rgba(120, 170, 210, 0.12);
 }
 
 .showcase-frame img {
@@ -527,20 +541,18 @@ body {
   object-fit: cover;
   object-position: top left;
   display: block;
-  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.showcase-card:hover .showcase-frame img {
-  transform: scale(1.02);
 }
 
 .showcase-label {
+  display: block;
+  margin-top: 10px;
   font-family: var(--vp-font-family-mono);
-  font-size: 0.6875rem;
+  font-size: 0.625rem;
   font-weight: 500;
-  letter-spacing: .08em;
+  letter-spacing: .10em;
   text-transform: uppercase;
   color: var(--vp-c-text-3);
+  text-align: center;
   transition: color 0.3s;
 }
 
@@ -548,19 +560,30 @@ body {
   color: var(--vp-c-text-1);
 }
 
-@media (max-width: 639px) {
-  .showcase {
+@media (max-width: 767px) {
+  .showcase-desk {
+    height: auto;
+    display: flex;
     flex-direction: column;
+    gap: 20px;
     align-items: center;
-    gap: 24px;
-    padding: 0 16px;
   }
   .showcase-card {
-    max-width: 100%;
+    position: relative;
+    width: 92%;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
   }
-  .showcase-card:hover,
-  .showcase-card:last-child:hover {
-    transform: translateY(-2px);
+  .showcase-card--left {
+    transform: rotate(-1.5deg);
+  }
+  .showcase-card--right {
+    transform: rotate(1deg);
+  }
+  .showcase-card--left:hover,
+  .showcase-card--right:hover {
+    transform: rotate(0deg) translateY(-4px);
   }
 }
 

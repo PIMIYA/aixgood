@@ -3,39 +3,27 @@ import { withBase } from 'vitepress'
 import { useData } from 'vitepress'
 
 const { lang } = useData()
-
-const items = [
-  {
-    key: 'archilaw',
-    img: '/screenshots/archilaw-webapp.png',
-    zh: 'ArchiLAW Web App',
-    en: 'ArchiLAW Web App',
-    linkZh: '/archilaw/webapp',
-    linkEn: '/en/archilaw/webapp',
-  },
-  {
-    key: 'archigent',
-    img: '/screenshots/archigent-workbench.png',
-    zh: 'Archigent 建築工作台',
-    en: 'Archigent Workbench',
-    linkZh: '/archigent/',
-    linkEn: '/en/archigent/',
-  },
-]
 </script>
 
 <template>
-  <section class="showcase">
+  <section class="showcase-desk">
     <a
-      v-for="item in items"
-      :key="item.key"
-      :href="withBase(lang === 'en' ? item.linkEn : item.linkZh)"
-      class="showcase-card"
+      class="showcase-card showcase-card--left"
+      :href="withBase(lang === 'en' ? '/en/archilaw/webapp' : '/archilaw/webapp')"
     >
       <div class="showcase-frame">
-        <img :src="withBase(item.img)" :alt="lang === 'en' ? item.en : item.zh" loading="lazy" />
+        <img :src="withBase('/screenshots/archilaw-webapp.png')" :alt="lang === 'en' ? 'ArchiLAW Web App' : 'ArchiLAW Web App'" loading="lazy" />
       </div>
-      <span class="showcase-label">{{ lang === 'en' ? item.en : item.zh }}</span>
+      <span class="showcase-label">ArchiLAW Web App</span>
+    </a>
+    <a
+      class="showcase-card showcase-card--right"
+      :href="withBase(lang === 'en' ? '/en/archigent/' : '/archigent/')"
+    >
+      <div class="showcase-frame">
+        <img :src="withBase('/screenshots/archigent-workbench.png')" :alt="lang === 'en' ? 'Archigent Workbench' : 'Archigent 建築工作台'" loading="lazy" />
+      </div>
+      <span class="showcase-label">{{ lang === 'en' ? 'Archigent Workbench' : 'Archigent 建築工作台' }}</span>
     </a>
   </section>
 </template>
