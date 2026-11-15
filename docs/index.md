@@ -4,9 +4,6 @@ hero:
   name: AIxGood
   text: ArchiLAW 與 Archigent
   tagline: 洪建全基金會 AIxGood 計畫 -- 測試版
-  image:
-    src: /archigent-icon.png
-    alt: Archigent
   actions:
     - theme: brand
       text: ArchiLAW 法規知識庫

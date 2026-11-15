@@ -4,9 +4,6 @@ hero:
   name: AIxGood
   text: ArchiLAW & Archigent
   tagline: Hong Foundation AIxGood Program -- Beta
-  image:
-    src: /archigent-icon.png
-    alt: Archigent
   actions:
     - theme: brand
       text: ArchiLAW Knowledge Base

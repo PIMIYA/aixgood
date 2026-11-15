@@ -27,6 +27,7 @@ export default defineConfig({
           { text: '首頁', link: '/' },
           { text: 'ArchiLAW', link: '/archilaw/' },
           { text: 'Archigent', link: '/archigent/' },
+          { text: '下載', link: '/archigent/download' },
         ],
         sidebar: {
           '/archilaw/': [
@@ -46,6 +47,7 @@ export default defineConfig({
               text: 'Archigent 建築工作台',
               items: [
                 { text: '介紹', link: '/archigent/' },
+                { text: '下載', link: '/archigent/download' },
                 { text: '安裝與設定', link: '/archigent/setup' },
                 { text: '使用說明', link: '/archigent/usage' },
                 { text: '圖文使用手冊', link: '/archigent/guide' },
@@ -75,6 +77,7 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'ArchiLAW', link: '/en/archilaw/' },
           { text: 'Archigent', link: '/en/archigent/' },
+          { text: 'Download', link: '/en/archigent/download' },
         ],
         sidebar: {
           '/en/archilaw/': [
@@ -94,6 +97,7 @@ export default defineConfig({
               text: 'Archigent Workbench',
               items: [
                 { text: 'Overview', link: '/en/archigent/' },
+                { text: 'Download', link: '/en/archigent/download' },
                 { text: 'Setup', link: '/en/archigent/setup' },
                 { text: 'Usage', link: '/en/archigent/usage' },
                 { text: 'Illustrated Guide', link: '/en/archigent/guide' },
@@ -118,7 +122,7 @@ export default defineConfig({
   themeConfig: {
     logo: {
       light: '/hong-mark.svg',
-      dark: '/hong-mark.svg',
+      dark: '/hong-mark-dark.svg',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/PIMIYA/aixgood' },

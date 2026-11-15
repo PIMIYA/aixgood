@@ -1,12 +1,12 @@
 # 安裝與設定
 
 ::: info 測試版 (Beta)
-目前為受邀測試版本，安裝檔案由專案團隊提供。
+目前為受邀測試版本。
 :::
 
 ## 下載
 
-測試期間，請向專案團隊取得適合你作業系統的安裝檔案：
+請至[下載頁面](/archigent/download)取得最新版本的安裝檔案，或直接到 [GitHub Releases](https://github.com/PIMIYA/aixgood/releases/latest) 下載。
 
 | 平台 | 檔案 |
 |------|------|

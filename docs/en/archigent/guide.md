@@ -48,10 +48,12 @@ In **Settings > Agent > Provider selection**, choose a text provider and a separ
 
 ### Install the desktop app
 
+Download Archigent from the [Download page](https://pimiya.github.io/aixgood/en/archigent/download.html), or directly from the [latest release](https://github.com/PIMIYA/aixgood/releases/latest). Each release lists `SHA256SUMS.txt` to check the downloaded file.
+
 #### Windows
 
-1. Download `Archigent-Setup-<version>-x64.exe` from the release page the project team shares with you.
-2. Run the installer and follow its steps. The Windows installer is not code-signed yet, so Windows SmartScreen may show **Windows protected your PC**. Only for a file you received from the project team, choose **More info > Run anyway**. If your company blocks the installer, ask your IT administrator.
+1. Download `Archigent-Setup-<version>-x64.exe` from the Download page.
+2. Run the installer and follow its steps. The Windows installer is not code-signed yet, so Windows SmartScreen may show **Windows protected your PC**. Only for a file you downloaded from the Download page or received from the project team, choose **More info > Run anyway**. If your company blocks the installer, ask your IT administrator.
 3. Open **Archigent** from the Start menu.
 4. Select **About** in the header and check the version against the release page.
 
@@ -61,7 +63,7 @@ In **Settings > Agent > Provider selection**, choose a text provider and a separ
 
 #### macOS
 
-Choose one ZIP supplied by the project team:
+Download one ZIP from the Download page:
 
 - `Archigent-<version>-arm64-mac.zip` for Apple Silicon Macs.
 - `Archigent-<version>-universal-mac.zip` for Apple Silicon or Intel Macs.

@@ -1,12 +1,12 @@
 # Setup and Configuration
 
 ::: info Beta
-This is an invitation-only beta. Installation files are provided by the project team.
+This is an invitation-only beta.
 :::
 
 ## Download
 
-During the beta, obtain the installation file for your operating system from the project team:
+Visit the [Download page](/en/archigent/download) for the latest installers, or download directly from [GitHub Releases](https://github.com/PIMIYA/aixgood/releases/latest).
 
 | Platform | File |
 |----------|------|

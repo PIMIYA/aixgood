@@ -48,10 +48,12 @@
 
 ### 安裝應用程式
 
+請從[下載頁面](https://pimiya.github.io/aixgood/archigent/download.html)下載 Archigent，或直接到[最新發行版本](https://github.com/PIMIYA/aixgood/releases/latest)下載。每個發行版本都附有 `SHA256SUMS.txt`，可用來核對下載的檔案。
+
 #### Windows
 
-1. 從專案團隊提供的發行頁面下載 `Archigent-Setup-<版本>-x64.exe`。
-2. 執行安裝程式並依照步驟完成安裝。Windows 安裝程式目前尚未程式碼簽章，SmartScreen 可能顯示「Windows 已保護您的電腦」。只有確認檔案來自專案團隊時，才選擇「其他資訊 > 仍要執行」。若公司政策封鎖安裝程式，請洽詢 IT 管理員。
+1. 從下載頁面下載 `Archigent-Setup-<版本>-x64.exe`。
+2. 執行安裝程式並依照步驟完成安裝。Windows 安裝程式目前尚未程式碼簽章，SmartScreen 可能顯示「Windows 已保護您的電腦」。只有確認檔案來自下載頁面或專案團隊時，才選擇「其他資訊 > 仍要執行」。若公司政策封鎖安裝程式，請洽詢 IT 管理員。
 3. 從開始功能表開啟 **Archigent**。
 4. 選取頁首的「關於」，確認版本與發行頁面相同。
 
@@ -61,7 +63,7 @@
 
 #### macOS
 
-請從專案團隊提供的 ZIP 選擇其中一個：
+請從下載頁面下載其中一個 ZIP：
 
 - Apple Silicon Mac 使用 `Archigent-<版本>-arm64-mac.zip`。
 - Apple Silicon 或 Intel Mac 使用 `Archigent-<版本>-universal-mac.zip`。
