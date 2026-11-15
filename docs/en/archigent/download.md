@@ -2,15 +2,17 @@
 
 ## Current Version
 
-**Archigent 0.3.17**
+**Archigent 0.3.18**
 
 | Platform | File | Size |
 |----------|------|------|
-| macOS (Apple Silicon) | [Archigent-0.3.17-arm64-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.17/Archigent-0.3.17-arm64-mac.zip) | 117 MB |
-| macOS (Intel / Apple Silicon) | [Archigent-0.3.17-universal-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.17/Archigent-0.3.17-universal-mac.zip) | 212 MB |
-| Windows x64 | [Archigent-Setup-0.3.17-x64.exe](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.17/Archigent-Setup-0.3.17-x64.exe) | 110 MB |
+| macOS (Apple Silicon) | [Archigent-0.3.18-arm64-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/Archigent-0.3.18-arm64-mac.zip) | 117 MB |
+| macOS (Intel / Apple Silicon) | [Archigent-0.3.18-universal-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/Archigent-0.3.18-universal-mac.zip) | 212 MB |
+| Windows x64 | [Archigent-Setup-0.3.18-x64.exe](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/Archigent-Setup-0.3.18-x64.exe) | 110 MB |
 
-[SHA256SUMS.txt](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.17/SHA256SUMS.txt) -- verify file integrity after download
+[SHA256SUMS.txt](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/SHA256SUMS.txt) -- verify file integrity after download
+
+0.3.18 adds "Report a problem" (Settings > Integrations & security, top).
 
 All versions: [GitHub Releases](https://github.com/PIMIYA/aixgood/releases/latest)
 

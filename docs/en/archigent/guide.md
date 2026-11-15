@@ -420,8 +420,24 @@ If **Start Agent** fails, check the selected Agent provider and sign-in status, 
 | A companion capture does not arrive | Confirm Archigent is running on the same computer, pair again, and copy the current local endpoint and token into the host extension. |
 | A companion capture is rejected | The pairing may have expired, the image may be too large, or the request is not a PNG/JPEG snapshot. Pair again or use manual PNG/JPEG import. |
 
-### Report an issue
+### Report a problem to the development team
+
+When something goes wrong during testing, report it from inside Archigent. The development team fixes problems from these reports:
+
+1. Open **Settings** in the header and select the **Integrations & security** category. **Report a problem** is at the top.
+2. Write what happened, the steps you took, and what you expected to see. For example: "In the Sketch stage, the Agent never answered after I chose Start."
+3. Select **Preview** and check the content to be sent.
+4. When it looks right, select **Send**. The app shows a report number; quote it if you add details later.
+
+![Report a problem: the preview shows the phone number masked as [phone]](/aixgood/archigent/images/16-report-problem.png)
+
+*Report a problem: the preview shows the phone number masked as [phone]*
+
+A report contains only your description plus the Archigent and plug-in versions, the operating system, the screen you were on (for example the Sketch stage, without the project name), and the categories and times of recent log entries. Drawings, project content, Agent conversations and keys are never attached. Phone numbers, emails, ID numbers, file paths and keys are masked automatically, but names cannot be detected, so do not write the names of owners or other people.
+
+Recent log entries are kept only while Archigent stays open, so report before you quit the app. If the report server cannot be reached, check your network and select **Send** again; a preview is kept for 15 minutes.
+
+### Security
 
 - Never send API keys, viewport pairing tokens, or captured model-file paths in screenshots, chat messages, issue reports, or email.
-- Use the bottom **Logs** panel when reporting an error. Copy the redacted error message and the steps that caused it; do not include keys or pairing tokens.
-- Report the app version, operating system version, selected provider/model, and whether a mask or reference image was used.
+- If you also send a screenshot, keep credentials, pairing tokens, client names and private drawings out of it.
