@@ -429,7 +429,7 @@ When something goes wrong during testing, report it from inside Archigent. The d
 3. Select **Preview** and check the content to be sent.
 4. When it looks right, select **Send**. The app shows a report number; quote it if you add details later.
 
-![Report a problem: the preview shows the phone number masked as [phone]](/aixgood/archigent/images/16-report-problem.png)
+![Report a problem: the preview shows the phone number masked as [phone]](../../archigent/images/16-report-problem.png)
 
 *Report a problem: the preview shows the phone number masked as [phone]*
 

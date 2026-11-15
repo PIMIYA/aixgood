@@ -424,7 +424,7 @@ Agent 的 `sheet_check` 會在本機檢查 PDF 的簡體字、文字重疊及超
 3. 選取「預覽」，檢查將送出的內容。
 4. 確認無誤後選取「送出」。畫面會顯示回報編號；之後要補充說明時，請附上這個編號。
 
-![回報問題：預覽中的電話號碼已遮蔽為 [phone]](/aixgood/archigent/images/16-report-problem.png)
+![回報問題：預覽中的電話號碼已遮蔽為 [phone]](./images/16-report-problem.png)
 
 *回報問題：預覽中的電話號碼已遮蔽為 [phone]*
 
