@@ -5,15 +5,15 @@ export default defineConfig({
   description: '洪建全基金會 AIxGood 計畫 — ArchiLAW 與 Archigent 服務文件',
   base: '/aixgood/',
   head: [
-    ['meta', { name: 'theme-color', content: '#FAFAF6' }],
+    ['meta', { name: 'theme-color', content: '#0A1628' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['script', {}, `
       ;(function(){
         var k='vitepress-theme-appearance';
         if(!localStorage.getItem(k)){
-          document.documentElement.classList.remove('dark');
-          localStorage.setItem(k,'light');
+          document.documentElement.classList.add('dark');
+          localStorage.setItem(k,'dark');
         }
       })();
     `],
