@@ -5,9 +5,8 @@ export default defineConfig({
   description: '洪建全文教基金會 AIxGood 計畫 — ArchiLAW 與 Archigent 服務文件',
   lang: 'zh-TW',
   base: '/aixgood/',
-  appearance: 'dark',
   head: [
-    ['meta', { name: 'theme-color', content: '#000000' }],
+    ['meta', { name: 'theme-color', content: '#FBFAF7' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
   ],
