@@ -187,7 +187,7 @@ body {
 }
 
 /* ── Nav ── frosted glass over grid ── */
-.VPNav {
+.VPNavBar {
   backdrop-filter: blur(16px) saturate(1.3);
   -webkit-backdrop-filter: blur(16px) saturate(1.3);
   border-bottom: 1px solid var(--vp-c-border) !important;
