@@ -2,17 +2,17 @@
 
 ## 目前版本
 
-**Archigent 0.3.18**
+**Archigent 0.3.19**
 
 | 平台 | 檔案 | 大小 |
 |------|------|------|
-| macOS (Apple Silicon) | [Archigent-0.3.18-arm64-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/Archigent-0.3.18-arm64-mac.zip) | 117 MB |
-| macOS (Intel / Apple Silicon) | [Archigent-0.3.18-universal-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/Archigent-0.3.18-universal-mac.zip) | 212 MB |
-| Windows x64 | [Archigent-Setup-0.3.18-x64.exe](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/Archigent-Setup-0.3.18-x64.exe) | 110 MB |
+| macOS (Apple Silicon) | [Archigent-0.3.19-arm64-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/Archigent-0.3.19-arm64-mac.zip) | 117 MB |
+| macOS (Intel / Apple Silicon) | [Archigent-0.3.19-universal-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/Archigent-0.3.19-universal-mac.zip) | 212 MB |
+| Windows x64 | [Archigent-Setup-0.3.19-x64.exe](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/Archigent-Setup-0.3.19-x64.exe) | 110 MB |
 
-[SHA256SUMS.txt](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.18/SHA256SUMS.txt) -- 下載完成後可核對檔案完整性
+[SHA256SUMS.txt](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/SHA256SUMS.txt) -- 下載完成後可核對檔案完整性
 
-0.3.18 新增「回報問題」功能（設定 > 整合與安全，最上方）。
+0.3.19 Mac：SketchUp 裝在個人的「應用程式」資料夾（~/Applications）時，「安裝外掛」也能找到並安裝。
 
 所有版本：[GitHub Releases](https://github.com/PIMIYA/aixgood/releases/latest)
 
