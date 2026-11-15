@@ -6,9 +6,18 @@ export default defineConfig({
   lang: 'zh-TW',
   base: '/aixgood/',
   head: [
-    ['meta', { name: 'theme-color', content: '#FBFAF7' }],
+    ['meta', { name: 'theme-color', content: '#FAFAF6' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['script', {}, `
+      ;(function(){
+        var k='vitepress-theme-appearance';
+        if(!localStorage.getItem(k)){
+          document.documentElement.classList.remove('dark');
+          localStorage.setItem(k,'light');
+        }
+      })();
+    `],
   ],
   themeConfig: {
     nav: [

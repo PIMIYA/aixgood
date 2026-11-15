@@ -35,7 +35,25 @@ Archigent 在你的電腦上運行，專案資料保存在本機。
 - 在專案工作目錄中處理檔案
 - 根據專案規則與核准記憶回答問題
 
-Agent 支援 ChatGPT 方案、OpenAI API 金鑰，或 OpenAI 相容服務（需支援 Responses API）。
+### 執行引擎
+
+Agent 提供三種執行引擎：
+
+| 引擎 | 說明 |
+|------|------|
+| Codex | 使用 ChatGPT 方案或 OpenAI API |
+| Pi | 支援多家 API 供應商 |
+| Claude Code | 透過本機安裝的官方 Claude Code 使用 Claude 訂閱 |
+
+### 供應商支援
+
+| 供應商 | 文字功能 | Agent |
+|--------|---------|-------|
+| ChatGPT Plus/Pro 方案 | 支援 | 支援 |
+| OpenAI API 金鑰 | 支援 | 支援 |
+| Gemini API 金鑰 | 支援 | 不支援 |
+| OpenAI 相容端點（支援 Responses API） | 支援 | 支援 |
+| OpenAI 相容端點（僅聊天） | 支援 | 不支援 |
 
 ## 獨立工具
 
@@ -58,7 +76,7 @@ Archigent 可透過擴充功能（plug-in）配對 Revit 2023/2025/2026 與 Sket
 
 ## ArchiLAW 連接
 
-在設定中輸入 ArchiLAW 的 MCP 連接網址並登入後，Agent 即可查詢法規知識庫。每次查詢都需要你的核准。
+在 **設定 > 整合與安全** 輸入 ArchiLAW 的 MCP 連接網址並登入後，Agent 即可查詢法規知識庫。每次查詢都需要你的核准。
 
 ## 系統需求
 
@@ -79,4 +97,4 @@ Archigent 可透過擴充功能（plug-in）配對 Revit 2023/2025/2026 與 Sket
 | AI 服務 | 內建（由伺服器端提供） | 使用者自備 API 金鑰或 ChatGPT 帳號 |
 | 資料位置 | 伺服器端 | 本機 |
 
-[安裝與設定 →](./setup)
+[安裝與設定 ->](./setup)
