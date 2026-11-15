@@ -17,7 +17,7 @@ export default defineConfig({
     sidebar: {
       '/archilaw/': [
         {
-          text: 'ArchiLAW',
+          text: 'ArchiLAW 法規知識庫',
           items: [
             { text: '服務介紹', link: '/archilaw/' },
             { text: '功能說明', link: '/archilaw/features' },
@@ -29,9 +29,9 @@ export default defineConfig({
       ],
       '/archigent/': [
         {
-          text: 'Archigent',
+          text: 'Archigent 建築工作台',
           items: [
-            { text: 'App 介紹', link: '/archigent/' },
+            { text: '介紹', link: '/archigent/' },
             { text: '安裝與設定', link: '/archigent/setup' },
             { text: '使用說明', link: '/archigent/usage' },
             { text: '常見問題', link: '/archigent/faq' },
