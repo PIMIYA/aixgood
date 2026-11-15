@@ -2,6 +2,7 @@
 import DefaultTheme from 'vitepress/theme'
 import HeroLogos from './HeroLogos.vue'
 import HeroManifesto from './HeroManifesto.vue'
+import ShowcaseScreenshots from './ShowcaseScreenshots.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -13,6 +14,9 @@ const { Layout } = DefaultTheme
     </template>
     <template #home-hero-actions-after>
       <HeroManifesto />
+    </template>
+    <template #home-features-after>
+      <ShowcaseScreenshots />
     </template>
   </Layout>
 </template>

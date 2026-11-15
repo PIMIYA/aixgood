@@ -458,6 +458,112 @@ body {
   background: var(--vp-c-text-3);
 }
 
+/* ── Home page: screenshot showcase ── */
+.showcase {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1152px;
+  margin: 0 auto 48px;
+  padding: 0 24px;
+  perspective: 1200px;
+}
+
+.showcase-card {
+  flex: 1;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none !important;
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.showcase-card:hover {
+  transform: rotateY(-2deg) rotateX(1deg) translateY(-4px);
+}
+
+.showcase-card:last-child:hover {
+  transform: rotateY(2deg) rotateX(1deg) translateY(-4px);
+}
+
+.showcase-frame {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-border);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.06),
+    0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.showcase-card:hover .showcase-frame {
+  border-color: var(--vp-c-text-3);
+  box-shadow:
+    0 8px 40px rgba(0, 0, 0, 0.10),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.dark .showcase-frame {
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.30),
+    0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.dark .showcase-card:hover .showcase-frame {
+  border-color: rgba(255, 255, 255, 0.30);
+  box-shadow:
+    0 8px 40px rgba(0, 0, 0, 0.40),
+    0 0 20px rgba(160, 184, 208, 0.10);
+}
+
+.showcase-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.showcase-card:hover .showcase-frame img {
+  transform: scale(1.02);
+}
+
+.showcase-label {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  transition: color 0.3s;
+}
+
+.showcase-card:hover .showcase-label {
+  color: var(--vp-c-text-1);
+}
+
+@media (max-width: 639px) {
+  .showcase {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 0 16px;
+  }
+  .showcase-card {
+    max-width: 100%;
+  }
+  .showcase-card:hover,
+  .showcase-card:last-child:hover {
+    transform: translateY(-2px);
+  }
+}
+
 /* ── Home page: hairline above features ── */
 .VPHome .VPFeatures {
   position: relative;
