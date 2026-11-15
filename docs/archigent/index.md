@@ -47,13 +47,18 @@ Agent 提供三種執行引擎：
 
 ### 供應商支援
 
-| 供應商 | 文字功能 | Agent |
-|--------|---------|-------|
-| ChatGPT Plus/Pro 方案 | 支援 | 支援 |
-| OpenAI API 金鑰 | 支援 | 支援 |
-| Gemini API 金鑰 | 支援 | 不支援 |
-| OpenAI 相容端點（支援 Responses API） | 支援 | 支援 |
-| OpenAI 相容端點（僅聊天） | 支援 | 不支援 |
+| 供應商 | 文字功能 | Agent: Codex | Agent: Pi | Agent: Claude Code | 影像產生 |
+| --- | --- | --- | --- | --- | --- |
+| ChatGPT Plus 或 Pro | 可 | 可 | 可 | 否 | 否 |
+| Claude 個人訂閱（例如 Pro 或 Max） | 否 | 否 | 否 | 可（預覽） | 否 |
+| Claude Console | 否 | 否 | 否 | 可（預覽） | 否 |
+| OpenAI API 金鑰 | 可 | 可 | 可 | 否 | 可 |
+| Google Gemini API 金鑰 | 可 | 否 | 可 | 否 | 可 |
+| Anthropic（Claude 模型）API 金鑰 | 否 | 否 | 可 | 否 | 否 |
+| xAI (Grok) API 金鑰 | 否 | 否 | 可 | 否 | 否 |
+| Kimi (Moonshot) API 金鑰 | 否 | 否 | 可 | 否 | 否 |
+| OpenRouter API 金鑰 | 否 | 否 | 可 | 否 | 否 |
+| OpenAI 相容端點 | 可 | 須支援 Responses API | 可 | 否 | 否 |
 
 ## 獨立工具
 

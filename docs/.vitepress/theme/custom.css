@@ -252,6 +252,22 @@ body {
   text-transform: uppercase;
 }
 
+.VPFeature .VPImage {
+  border-radius: 12px;
+}
+
+/* ── Nav logo ── */
+.VPNavBarTitle .logo {
+  height: 28px;
+  width: auto;
+}
+
+.VPNavBarTitle .title {
+  font-family: var(--vp-font-family-base);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
 /* ── Hero ── */
 .VPHero .name {
   font-weight: 700;
@@ -266,6 +282,26 @@ body {
 .VPHero .tagline {
   color: var(--vp-c-text-3);
   font-size: 14px;
+}
+
+.VPHero .VPImage {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 24px;
+}
+
+@media (min-width: 640px) {
+  .VPHero .VPImage {
+    max-width: 220px;
+    max-height: 220px;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .VPImage {
+    max-width: 260px;
+    max-height: 260px;
+  }
 }
 
 /* ── Document content ── */
@@ -382,6 +418,7 @@ body {
 /* ── Home page: hairline above features ── */
 .VPHome .VPFeatures {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .VPHome .VPFeatures::before {
@@ -399,10 +436,19 @@ body {
 }
 
 /* ── Content area: slight elevated panel over grid ── */
-.VPDoc .vp-doc,
+.VPDoc .vp-doc {
+  background: var(--vp-c-bg-elv);
+  padding: 24px 32px;
+  border: 1px solid var(--vp-c-gutter);
+  margin-bottom: 24px;
+}
+
 .VPHome .vp-doc {
   background: var(--vp-c-bg-elv);
   padding: 24px 32px;
   border: 1px solid var(--vp-c-gutter);
   margin-bottom: 24px;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
 }
