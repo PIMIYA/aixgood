@@ -2,17 +2,17 @@
 
 ## 目前版本
 
-**Archigent 0.3.19**
+**Archigent 0.3.20**
 
 | 平台 | 檔案 | 大小 |
 |------|------|------|
-| macOS (Apple Silicon) | [Archigent-0.3.19-arm64-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/Archigent-0.3.19-arm64-mac.zip) | 117 MB |
-| macOS (Intel / Apple Silicon) | [Archigent-0.3.19-universal-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/Archigent-0.3.19-universal-mac.zip) | 212 MB |
-| Windows x64 | [Archigent-Setup-0.3.19-x64.exe](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/Archigent-Setup-0.3.19-x64.exe) | 110 MB |
+| macOS (Apple Silicon) | [Archigent-0.3.20-arm64-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.20/Archigent-0.3.20-arm64-mac.zip) | 117 MB |
+| macOS (Intel / Apple Silicon) | [Archigent-0.3.20-universal-mac.zip](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.20/Archigent-0.3.20-universal-mac.zip) | 212 MB |
+| Windows x64 | [Archigent-Setup-0.3.20-x64.exe](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.20/Archigent-Setup-0.3.20-x64.exe) | 110 MB |
 
-[SHA256SUMS.txt](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.19/SHA256SUMS.txt) -- 下載完成後可核對檔案完整性
+[SHA256SUMS.txt](https://github.com/PIMIYA/aixgood/releases/download/archigent-v0.3.20/SHA256SUMS.txt) -- 下載完成後可核對檔案完整性
 
-0.3.19 Mac：SketchUp 裝在個人的「應用程式」資料夾（~/Applications）時，「安裝外掛」也能找到並安裝。
+0.3.20：回報問題可附截圖，主視窗也能回報；CAD 匯入保留完整內容並可直接匯入 DWG；可匯入 IFC 模型；SketchUp 與 Revit 外掛能讀取更多模型內容（需更新外掛）。
 
 遇到問題可在「設定 > 整合與安全」最上方的「回報問題」回報給開發團隊；請不要寫姓名。
 
